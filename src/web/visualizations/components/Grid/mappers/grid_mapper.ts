@@ -11,6 +11,7 @@ import {
   ICellRendererFunc,
   RowNode,
 } from 'ag-grid-community'
+// TODO conditional formatting all through here
 // import { FormattingManager } from '../../../conditional_formatting/formatting_manager_generator'
 // import { SeriesTextFormatCssBuilder } from '../../../conditional_formatting/series_text_format'
 import { rgb } from 'd3-color'
@@ -57,7 +58,8 @@ import {
   innerStringParser,
 } from '../utils/grid_utils'
 
-const Lexp = (window as any).Lexp
+// TODO conditional formatting/lexp
+// const Lexp = (window as any).Lexp
 
 interface PinnedColMap {
   [key: string]: 'left' | 'right' | ''
