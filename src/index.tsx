@@ -1,4 +1,5 @@
 import 'web/visualizations/components/Grid/styles/grid_themes.scss'
+import 'web/visualizations/components/Grid/styles/lk-icons.scss'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -6,9 +7,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Grid from 'web/visualizations/components/Grid';
 import { context } from './example_data';
-
-
-
 
 ReactDOM.render(<Grid options={context} />, document.getElementById('root'));
 

@@ -355,7 +355,7 @@ export default class Grid extends Component<GridProps> {
       <ThemeProvider theme={theme}>
         <div className={'ag-grid-vis ' + tableClass}>
           <AgGridReact
-            // reactNext={true}
+            reactNext={true}
             {...gridOptions}
             onGridReady={this.onGridReady}
             onGridSizeChanged={this.autosizeColumns}

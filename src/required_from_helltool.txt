@@ -10,5 +10,6 @@
 - conditional formatting
 - lots of utils
 - lots of types
+- Looker icons
 
 - Required packages: assets/core_api, d3-array, d3-scale, d3-scale-chromatic, DOMPurify, jquery
