@@ -8,6 +8,8 @@ import Grid from 'web/visualizations/components/Grid';
 import { context } from './example_data';
 
 
+
+
 ReactDOM.render(<Grid options={context} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

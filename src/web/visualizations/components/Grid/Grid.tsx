@@ -20,7 +20,12 @@ import { GridOptionsWrapper } from './mappers/grid_mapper'
 import { GenericObject, GridContext } from './types/grid_types'
 // import { GRID_LICENSE_KEY } from './utils/grid_constants'
 import { totalsPlacement } from './utils/grid_utils'
-// USSEnterprise.setLicenseKey(GRID_LICENSE_KEY)
+import { ThemeProvider } from 'styled-components'
+import { theme } from '@looker/components'
+
+const GRID_LICENSE_KEY = 'Looker_Looker_4Devs_3000Deployment_24_April_2020__MTU4NzY4MjgwMDAwMA==8f57ce06db59e1e0876c5a8db417ec12'
+
+USSEnterprise.setLicenseKey(GRID_LICENSE_KEY)
 
 interface GridProps {
   options: GridContext
@@ -346,17 +351,20 @@ export default class Grid extends Component<GridProps> {
     const gridOptions = this.gridOptionsWrapper.buildGridOptions()
     return (
       // AgGridReact appears to no be able to accept a className
-      <div className={'ag-grid-vis ' + tableClass}>
-        <AgGridReact
-          // reactNext={true}
-          {...gridOptions}
-          onGridReady={this.onGridReady}
-          onGridSizeChanged={this.autosizeColumns}
-          onCellClicked={this.onCellClick}
-          onColumnEverythingChanged={this.autosizeColumns}
-          frameworkComponents={frameworkComponents}
-        />
-      </div>
+
+      <ThemeProvider theme={theme}>
+        <div className={'ag-grid-vis ' + tableClass}>
+          <AgGridReact
+            // reactNext={true}
+            {...gridOptions}
+            onGridReady={this.onGridReady}
+            onGridSizeChanged={this.autosizeColumns}
+            onCellClicked={this.onCellClick}
+            onColumnEverythingChanged={this.autosizeColumns}
+            frameworkComponents={frameworkComponents}
+          />
+        </div>
+      </ThemeProvider>
     )
   }
 }
