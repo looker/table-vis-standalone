@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPaletteFromColor should accept invalid colors and return default palette 1`] = `
+Object {
+  "color000": "#f7f7f7",
+  "color100": "#f2f2f2",
+  "color200": "#e6e6e6",
+  "color300": "#bfbfbf",
+  "color400": "#999999",
+  "color500": "#737373",
+  "color600": "#595959",
+  "color700": "#4d4d4d",
+  "color800": "#3b3b3b",
+  "color900": "#2b2b2b",
+}
+`;
+
+exports[`getPaletteFromColor should accept invalid colors and return default palette 2`] = `
+Object {
+  "color000": "#f7f7f7",
+  "color100": "#f2f2f2",
+  "color200": "#e6e6e6",
+  "color300": "#bfbfbf",
+  "color400": "#999999",
+  "color500": "#737373",
+  "color600": "#595959",
+  "color700": "#4d4d4d",
+  "color800": "#3b3b3b",
+  "color900": "#2b2b2b",
+}
+`;
+
+exports[`getPaletteFromColor should return a palette: purple 1`] = `
+Object {
+  "color000": "#fff0ff",
+  "color100": "#ffe5ff",
+  "color200": "#ffccff",
+  "color300": "#ff80ff",
+  "color400": "#ff33ff",
+  "color500": "#e600e6",
+  "color600": "#b300b3",
+  "color700": "#990099",
+  "color800": "#750075",
+  "color900": "#570057",
+}
+`;
+
+exports[`getPaletteFromColor should return a palette: white 1`] = `
+Object {
+  "color000": "#f7f7f7",
+  "color100": "#f2f2f2",
+  "color200": "#e6e6e6",
+  "color300": "#bfbfbf",
+  "color400": "#999999",
+  "color500": "#737373",
+  "color600": "#595959",
+  "color700": "#4d4d4d",
+  "color800": "#3b3b3b",
+  "color900": "#2b2b2b",
+}
+`;

@@ -1,0 +1,2530 @@
+{
+  "colorCollections": [
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#E57947",
+              "offset": 0
+            },
+            {
+              "color": "#FBB555",
+              "offset": 25
+            },
+            {
+              "color": "#ffffff",
+              "offset": 50
+            },
+            {
+              "color": "#3EB0D5",
+              "offset": 75
+            },
+            {
+              "color": "#4276BE",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "1e4d66b9-f066-4c33-b0b7-cc10b4810688"
+        },
+        {
+          "id": "4a543302-b64d-409c-9863-679b5b230aac",
+          "label": "Diverging",
+          "stops": [
+            {
+              "color": "#4276BE",
+              "offset": 0
+            },
+            {
+              "color": "#3EB0D5",
+              "offset": 25
+            },
+            {
+              "color": "#ffffff",
+              "offset": 50
+            },
+            {
+              "color": "#C2DD67",
+              "offset": 75
+            },
+            {
+              "color": "#72D16D",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#3EB0D5",
+              "offset": 50
+            },
+            {
+              "color": "#4276BE",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "85de97da-2ded-4dec-9dbd-e6a7d36d5825"
+        },
+        {
+          "id": "afd46b40-e939-4ace-bffd-69d1bb16ee05",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#C2DD67",
+              "offset": 50
+            },
+            {
+              "color": "#72D16D",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "471a8295-662d-46fc-bd2d-2d0acd370c1e",
+          "label": "Sequential",
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#C6DAF6"
+            },
+            {
+              "offset": 33.333333333333336,
+              "color": "#3EB0D5"
+            },
+            {
+              "offset": 66.66666666666667,
+              "color": "#4276BE"
+            },
+            {
+              "offset": 100,
+              "color": "#592EC2"
+            }
+          ]
+        },
+        {
+          "id": "1ebd8493-ebcc-4e57-a4ff-ab3e6111da24",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#E4FA9A",
+              "offset": 0
+            },
+            {
+              "color": "#C2DD67",
+              "offset": 25
+            },
+            {
+              "color": "#3EB0D5",
+              "offset": 50
+            },
+            {
+              "color": "#4276BE",
+              "offset": 75
+            },
+            {
+              "color": "#592EC2",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "id": "fb7bb53e-b77b-4ab6-8274-9d420d3d73f3",
+          "label": "Primary",
+          "colors": [
+            "#3EB0D5",
+            "#B1399E",
+            "#C2DD67",
+            "#592EC2",
+            "#4276BE",
+            "#72D16D",
+            "#FFD95F",
+            "#B32F37",
+            "#9174F0",
+            "#E57947",
+            "#75E2E2",
+            "#FBB555"
+          ]
+        },
+        {
+          "colors": [
+            "#75E2E2",
+            "#3EB0D5",
+            "#4276BE",
+            "#592EC2",
+            "#9174F0",
+            "#B1399E",
+            "#B32F37",
+            "#E57947",
+            "#FBB555",
+            "#FFD95F",
+            "#C2DD67",
+            "#72D16D"
+          ],
+          "label": "Ordered",
+          "id": "ccba75a3-58c7-4b9c-a931-4ffc59e79cba"
+        }
+      ],
+      "label": "Looker",
+      "id": "b43731d5-dc87-4a8e-b807-635bef3948e7"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#f56776",
+              "offset": 0
+            },
+            {
+              "color": "#FD9577",
+              "offset": 25
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#ACE9F5",
+              "offset": 75
+            },
+            {
+              "color": "#54AAE2",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "99d2d3ac-7579-41a0-b16c-a381b7ae96da"
+        },
+        {
+          "id": "39798c77-0126-4f2f-a920-8d7ce381fa5a",
+          "label": "Diverging",
+          "stops": [
+            {
+              "color": "#FD9577",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#A5EF55",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#E8F6FF",
+              "offset": 0
+            },
+            {
+              "color": "#9FD5F8",
+              "offset": 50
+            },
+            {
+              "color": "#7CC8FA",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "b6d19921-b2be-4bb1-88be-73eb21d3861e"
+        },
+        {
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#FCCF41",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "95851a99-e5ef-4495-b0a7-e9a8cc984eb4"
+        },
+        {
+          "id": "a3f9463f-88e2-450e-9363-9525c96ecd6d",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#ACE9F5",
+              "offset": 0
+            },
+            {
+              "color": "#7CC8FA",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#54AAE2",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#9E7FD0",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "f29a5dfe-5665-4644-be18-468392d6af10",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#FDEC85",
+              "offset": 0
+            },
+            {
+              "color": "#FCCF41",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#FD9577",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#f56776",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#FCCF41",
+            "#7CC8FA",
+            "#f56776",
+            "#10C871",
+            "#FD9577",
+            "#9E7FD0",
+            "#AEC8C1",
+            "#ACE9F5",
+            "#A5EF55",
+            "#C8A7F9",
+            "#F29ED2",
+            "#FDEC85"
+          ],
+          "label": "Categorical",
+          "id": "93f8aeb4-3f4a-4cd7-8fee-88c3417516a1"
+        },
+        {
+          "colors": [
+            "#FCCF41",
+            "#A5EF55",
+            "#10C871",
+            "#7CC8FA",
+            "#ACE9F5",
+            "#C8A7F9",
+            "#9E7FD0",
+            "#f56776",
+            "#FD9577",
+            "#FDEC85",
+            "#AEC8C1",
+            "#F29ED2"
+          ],
+          "label": "Ordered",
+          "id": "d3bbf1c2-a6ec-4210-b1e7-3e48461cc45b"
+        }
+      ],
+      "label": "Breeze",
+      "id": "1297ec12-86a5-4ae0-9dfc-82de70b3806a"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#FC2E31",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#3D52B9",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "a8099e89-1c44-43dd-a3b4-7b76fdc3e338"
+        },
+        {
+          "stops": [
+            {
+              "color": "#FC2E31",
+              "offset": 0
+            },
+            {
+              "color": "#ffffff",
+              "offset": 50
+            },
+            {
+              "color": "#08B248",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "57bef7ef-25c4-448e-83df-9c4de399305d"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#FFFFFF",
+              "offset": 0
+            },
+            {
+              "color": "#3D52B9",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "97ce1e3f-9504-4d5c-835b-3fbaf78c084a"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#FC2E31"
+            }
+          ],
+          "label": "Sequential",
+          "id": "5378478f-6725-4b04-89cc-75fc42da804e"
+        },
+        {
+          "id": "0fa90fe5-14a6-47f1-a9e8-4e0d1bd95763",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#A918B4",
+              "offset": 0
+            },
+            {
+              "color": "#3D52B9",
+              "offset": 50
+            },
+            {
+              "color": "#08B248",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "47dcb9e8-1a4d-43ce-8071-6f4b64d5e85a",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#3D52B9",
+              "offset": 0
+            },
+            {
+              "color": "#08B248",
+              "offset": 50
+            },
+            {
+              "color": "#C9DC10",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "id": "18d0c733-1d87-42a9-934f-4ba8ef81d736",
+          "label": "Categorical",
+          "colors": [
+            "#3D52B9",
+            "#08B248",
+            "#A918B4",
+            "#FC2E31",
+            "#FC9200",
+            "#2B99F7",
+            "#C9DC10",
+            "#fa2f90",
+            "#FCBF00",
+            "#24BED5",
+            "#149888",
+            "#6F38BB"
+          ]
+        },
+        {
+          "id": "b88b6581-484a-4f48-b65b-6631648f867e",
+          "label": "Ordered",
+          "colors": [
+            "#FCBF00",
+            "#FC9200",
+            "#FC2E31",
+            "#fa2f90",
+            "#A918B4",
+            "#6F38BB",
+            "#3D52B9",
+            "#2B99F7",
+            "#24BED5",
+            "#149888",
+            "#08B248",
+            "#C9DC10"
+          ]
+        }
+      ],
+      "label": "Vivid",
+      "id": "5591d8d1-6b49-4f8e-bafa-b874d82f8eb7"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "id": "6dda4f8b-4e73-4e50-8760-eb378041ce07",
+          "label": "Diverging",
+          "stops": [
+            {
+              "color": "#FCA33D",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#81BE56",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D03433"
+            },
+            {
+              "offset": 25,
+              "color": "#F67738"
+            },
+            {
+              "offset": 50,
+              "color": "#FCC03E"
+            },
+            {
+              "offset": 75,
+              "color": "#CBC54B"
+            },
+            {
+              "offset": 100,
+              "color": "#83BE55"
+            }
+          ],
+          "label": "Diverging",
+          "id": "e26878fa-802e-47d9-9478-62fb4307f763"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "id": "a77d2b8b-ee06-4086-8459-cfff9cccb2d2",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#FFFFFF",
+              "offset": 0
+            },
+            {
+              "color": "#8DC069",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "2da48dd9-f8f5-45cc-81a6-74037767d59b",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#FFFFFF",
+              "offset": 0
+            },
+            {
+              "color": "#F9CB67",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "396e0019-9589-49fd-9268-9abe8a4bb230",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#F8ED9D",
+              "offset": 0
+            },
+            {
+              "color": "#E0E992",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#8DC069",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#55A3B3",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "d0d36d2d-883f-4e68-95fc-e4a12abd9a30",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#CCC54B",
+              "offset": 0
+            },
+            {
+              "color": "#81BE56",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#55A3B3",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#6877A4",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#81BE56",
+            "#CCC54B",
+            "#55A3B3",
+            "#F9CB67",
+            "#80CABB",
+            "#FCA33D",
+            "#6877A4",
+            "#7C478E",
+            "#F57237",
+            "#D14242",
+            "#CD3B8A",
+            "#AF71CB"
+          ],
+          "label": "Categorical",
+          "id": "c36094e3-d04d-4aa4-8ec7-bc9af9f851f4"
+        },
+        {
+          "colors": [
+            "#81BE56",
+            "#CCC54B",
+            "#FCC03E",
+            "#FCA33D",
+            "#F57237",
+            "#D03333",
+            "#CD3B8A",
+            "#AF71CB",
+            "#763A8B",
+            "#6877A4",
+            "#55A3B3",
+            "#80CABB"
+          ],
+          "label": "Ordered",
+          "id": "52550bde-5d63-4b91-9b67-2aed0fb2f505"
+        }
+      ],
+      "label": "Springfield",
+      "id": "aed851c8-b22d-4b01-8fff-4b02b91fe78d"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#CF4C6B"
+            },
+            {
+              "offset": 50,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#58A07D"
+            }
+          ],
+          "label": "Diverging",
+          "id": "ce148433-817b-4aee-aaea-880394d1f089"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#CF4C6B"
+            },
+            {
+              "offset": 50,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#404FC4"
+            }
+          ],
+          "label": "Diverging",
+          "id": "8344d4a0-7db6-4a4c-9019-4924388f3183"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#AA397F",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "ce78c2ac-5f9c-4443-90ba-dede3e8cb0e8"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#404FC4"
+            }
+          ],
+          "label": "Sequential",
+          "id": "bc9e0d1c-0541-4cc1-9aff-854954fc0121"
+        },
+        {
+          "id": "8e69d1e5-0beb-4ac0-9df0-33b24fa59ac7",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#C9D275",
+              "offset": 0
+            },
+            {
+              "color": "#2586A4",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#404FC4",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#AA397F",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "c0a26a97-018c-4b6a-9f39-b15008a3f4a5",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#AA397F",
+              "offset": 0
+            },
+            {
+              "color": "#8735C1",
+              "offset": 25
+            },
+            {
+              "color": "#404FC4",
+              "offset": 50
+            },
+            {
+              "color": "#3B8EF3",
+              "offset": 75
+            },
+            {
+              "color": "#35ADDC",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#AA397F",
+            "#2586A4",
+            "#C9D275",
+            "#CF4C6B",
+            "#58A07D",
+            "#5E3FC5",
+            "#EBBE60",
+            "#DB5E61",
+            "#404FC4",
+            "#35ADDC",
+            "#8735C1",
+            "#F5E578",
+            "#E6985A",
+            "#3B8EF3",
+            "#6177A5",
+            "#6C5174"
+          ],
+          "label": "Categorical",
+          "id": "ff31218a-4f9d-493c-ade2-22266f5934b8"
+        },
+        {
+          "colors": [
+            "#CF4C6B",
+            "#AA397F",
+            "#8735C1",
+            "#5E3FC5",
+            "#404FC4",
+            "#3B8EF3",
+            "#35ADDC",
+            "#2586A4",
+            "#58A07D",
+            "#C9D275",
+            "#F5E578",
+            "#EBBE60",
+            "#E6985A",
+            "#DB5E61",
+            "#6177A5",
+            "#6C5174"
+          ],
+          "label": "Ordered",
+          "id": "51c093db-6fea-4370-a918-d6141bccf016"
+        }
+      ],
+      "label": "Cowells",
+      "id": "ed5756e2-1ba8-4233-97d2-d565e309c03b"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#CE642D"
+            },
+            {
+              "offset": 50,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#74A09F"
+            }
+          ],
+          "label": "Diverging",
+          "id": "94ff10f1-bc18-49e3-9172-d166ad160bf5"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#CE642D"
+            },
+            {
+              "offset": 50,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#C0D918"
+            }
+          ],
+          "label": "Diverging",
+          "id": "b0dc16dd-da82-46d0-9962-24489004d0e9"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#74A09F"
+            }
+          ],
+          "label": "Sequential",
+          "id": "35e9e067-0bf1-479b-88b2-b05622c0096d"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#CE642D"
+            }
+          ],
+          "label": "Sequential",
+          "id": "a0233bb4-79d9-42f3-95dc-cf21f14072a8"
+        },
+        {
+          "id": "b67e0c87-a728-46ab-8b4a-9c0c1fe6d192",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#74A09F",
+              "offset": 0
+            },
+            {
+              "color": "#C0D918",
+              "offset": 50
+            },
+            {
+              "color": "#E5E5E5",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "fd0771e8-0cba-4b83-b1a8-0dd8e60925a4",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#F9E4AD",
+              "offset": 0
+            },
+            {
+              "color": "#EBC667",
+              "offset": 50
+            },
+            {
+              "color": "#CE642D",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#74A09F",
+            "#ADAA8D",
+            "#EBC667",
+            "#C0D918",
+            "#85C0DE",
+            "#49CEC0",
+            "#AE6262",
+            "#CE642D",
+            "#92CF50",
+            "#F2E271",
+            "#AEC8C1",
+            "#0DADBD"
+          ],
+          "label": "Categorical",
+          "id": "0c5264fb-0681-4817-b9a5-d3c81002ce4c"
+        },
+        {
+          "colors": [
+            "#AE6262",
+            "#CE642D",
+            "#EBC667",
+            "#F2E271",
+            "#C0D918",
+            "#92CF50",
+            "#49CEC0",
+            "#0dadbd",
+            "#85c0de",
+            "#74A09F",
+            "#AEC8C1",
+            "#ADAA8D"
+          ],
+          "label": "Ordered",
+          "id": "53f185d2-c73c-4aa7-9b3e-c56a440c3743"
+        }
+      ],
+      "label": "Organic",
+      "id": "9d1da669-a6b4-4a4f-8519-3ea8723b79b5"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#A01C37",
+              "offset": 0
+            },
+            {
+              "color": "#DB6E41",
+              "offset": 25
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#9ED7D7",
+              "offset": 75
+            },
+            {
+              "color": "#4276BE",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "1353e25c-50e6-4d4d-9abc-4477189bd36d"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#B42F37"
+            },
+            {
+              "offset": 25,
+              "color": "#FBB556"
+            },
+            {
+              "offset": 50,
+              "color": "#FBFCF5"
+            },
+            {
+              "offset": 75,
+              "color": "#3FB0D5"
+            },
+            {
+              "offset": 100,
+              "color": "#462C9D"
+            }
+          ],
+          "label": "Diverging",
+          "id": "807a22b0-53c0-40e2-8b3b-28c8e266b0ea"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#FFF",
+              "offset": 0
+            },
+            {
+              "color": "#9ED7D7",
+              "offset": 50
+            },
+            {
+              "color": "#4276BE",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "0fb6d761-0476-4a6d-987f-15f890984d47"
+        },
+        {
+          "id": "775f4110-f7cc-4476-9240-6ed8975314ea",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#E57947",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "0cc9e709-0004-4166-adc2-c979c6a55ca0",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#4276BE",
+              "offset": 0
+            },
+            {
+              "color": "#3FB0D5",
+              "offset": 25
+            },
+            {
+              "color": "#FFD95F",
+              "offset": 50
+            },
+            {
+              "color": "#FBB556",
+              "offset": 75
+            },
+            {
+              "color": "#B42F37",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "stops": [
+            {
+              "color": "#FFD95F",
+              "offset": 0
+            },
+            {
+              "color": "#FAA25F",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#CC5848",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#A01C37",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "ac6ae05d-f9a3-4ac3-b7b8-1be843c74609"
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#4276BE",
+            "#3FB0D5",
+            "#E57947",
+            "#FFD95F",
+            "#B42F37",
+            "#6A013A",
+            "#7363A9",
+            "#44759A",
+            "#FBB556",
+            "#D5C679",
+            "#9ED7D7",
+            "#D59E79"
+          ],
+          "label": "Categorical",
+          "id": "629b455f-662e-4854-a424-4f0c9d4bbdfb"
+        },
+        {
+          "id": "8b146fdb-43c2-42c2-a572-277b13e9ae5c",
+          "label": "Ordered",
+          "colors": [
+            "#4276BE",
+            "#3FB0D5",
+            "#9ED7D7",
+            "#E57947",
+            "#FBB556",
+            "#FFD95F",
+            "#D5C679",
+            "#D59E79",
+            "#B42F37",
+            "#6A013A",
+            "#7363A9",
+            "#44759A"
+          ]
+        }
+      ],
+      "label": "Boardshorts",
+      "id": "80e60a97-c02b-4a41-aa05-83522ee2144b"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#E87F2F",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#068993",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "c80fe9b3-6c8e-48c6-891b-c9107bae6f6d"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ED480C"
+            },
+            {
+              "offset": 50,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#068993"
+            }
+          ],
+          "label": "Diverging",
+          "id": "ded8013e-627e-456a-8646-4c7ee6e0b1e7"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 50,
+              "color": "#7DC1C7"
+            },
+            {
+              "offset": 100,
+              "color": "#068993"
+            }
+          ],
+          "label": "Sequential",
+          "id": "acab4a0c-9dd2-48ac-85f3-c7f40364f778"
+        },
+        {
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#E87F2F",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "9bba0279-71a4-410a-bd57-3afc0dfabaad"
+        },
+        {
+          "id": "5b289dc9-1446-49e6-ab05-ba239a94b7a9",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#068993",
+              "offset": 0
+            },
+            {
+              "color": "#9B8E20",
+              "offset": 25
+            },
+            {
+              "color": "#D9C202",
+              "offset": 50
+            },
+            {
+              "color": "#E87F2F",
+              "offset": 75
+            },
+            {
+              "color": "#C75A31",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "364b5000-be28-40e9-a495-81343e4830d5",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#9B8E20",
+              "offset": 0
+            },
+            {
+              "color": "#D9C202",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#E87F2F",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#C75A31",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#F15922",
+            "#068993",
+            "#A85573",
+            "#9B8E20",
+            "#C75A31",
+            "#D9C202",
+            "#3F6173",
+            "#853955",
+            "#F2C73C",
+            "#E87F2F",
+            "#9B2030",
+            "#A8876C"
+          ],
+          "label": "Categorical",
+          "id": "de0bdb92-9455-489c-afa7-f0e0fdc76078"
+        },
+        {
+          "id": "3f395a8d-960f-4480-a725-63521163b8b8",
+          "label": "Ordered",
+          "colors": [
+            "#068993",
+            "#3F6173",
+            "#853955",
+            "#9B2030",
+            "#A85573",
+            "#C75A31",
+            "#F15922",
+            "#E87F2F",
+            "#F2C73C",
+            "#D9C202",
+            "#9B8E20",
+            "#A8876C"
+          ]
+        }
+      ],
+      "label": "Taos",
+      "id": "7c79334a-9912-4ca1-be6a-35756782ae09"
+    },
+    {
+      "id": "da8306b5-3b46-48aa-9ead-a3b32292f35c",
+      "label": "Sonoma",
+      "categoricalPalettes": [
+        {
+          "id": "75905e81-dadc-472c-b9a2-a201f788d55d",
+          "label": "Categorical",
+          "colors": [
+            "#4A80BC",
+            "#615894",
+            "#F0C733",
+            "#D13452",
+            "#E48522",
+            "#B977A9",
+            "#DFC858",
+            "#CD9D6B",
+            "#C4DF58",
+            "#7bc739",
+            "#c76273",
+            "#69d6de"
+          ]
+        },
+        {
+          "id": "1e00376f-fcd7-4627-a9f8-c86b83bbbe57",
+          "label": "Categorical",
+          "colors": [
+            "#CD9D6B",
+            "#E48522",
+            "#DFC858",
+            "#ded786",
+            "#F0C733",
+            "#C4DF58",
+            "#7bc739",
+            "#69d6de",
+            "#615894",
+            "#D13452",
+            "#B977A9",
+            "#c76273"
+          ]
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "id": "d9abd293-3cd0-448c-9540-4a55690e4ce1",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#4A80BC",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "00cbdb8d-45a9-40ea-b828-e0d5787dff5c",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#CD9D6B",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "32f7badf-5872-46b3-ad21-30d088ebf499",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#DFC858",
+              "offset": 0
+            },
+            {
+              "color": "#C4DF58",
+              "offset": 50
+            },
+            {
+              "color": "#4A80BC",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "95584bf9-c29e-41ea-b6e7-79e9c126e177",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#DFC858",
+              "offset": 0
+            },
+            {
+              "color": "#D13452",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "divergingPalettes": [
+        {
+          "id": "00fb21bc-5a8c-46b1-88bf-2a6a3d102830",
+          "label": "Diverging",
+          "stops": [
+            {
+              "color": "#9DB5CE",
+              "offset": 0
+            },
+            {
+              "color": "#ffffff",
+              "offset": 50
+            },
+            {
+              "color": "#DFC858",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "4868aae1-d096-4d4d-a37b-8d86e7f50396",
+          "label": "Diverging",
+          "stops": [
+            {
+              "color": "#D13452",
+              "offset": 0
+            },
+            {
+              "color": "#ffffff",
+              "offset": 50
+            },
+            {
+              "color": "#C4DF58",
+              "offset": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#61A9A5",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#D5DB61",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "dcfbcfd3-50be-453f-badd-e340864c3b1a"
+        },
+        {
+          "stops": [
+            {
+              "color": "#61A9A5",
+              "offset": 0
+            },
+            {
+              "color": "#B8F5ED",
+              "offset": 25
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#FFEB8E",
+              "offset": 75
+            },
+            {
+              "color": "#D5DB61",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "22f16759-9d51-44b0-99bc-2415c9f7ffdf"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#FFFFFF",
+              "offset": 0
+            },
+            {
+              "color": "#61A9A5",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "25b877bc-c7a8-4ed0-a0ef-5ba64ca3658d"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#D5DB61"
+            }
+          ],
+          "label": "Sequential",
+          "id": "773c99c0-14d0-4595-8eca-9405283af0ee"
+        },
+        {
+          "id": "ca5bc734-c8e2-489d-a00e-48c321885a14",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#25435A",
+              "offset": 0
+            },
+            {
+              "color": "#61A9A5",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#D5DB61",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#FECA36",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "96e4941d-9ac4-4459-b216-2cdba9745436",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#D5DB61",
+              "offset": 0
+            },
+            {
+              "color": "#61A9A5",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#25435A",
+            "#D5DB61",
+            "#61A9A5",
+            "#FECA36",
+            "#9DEDE7",
+            "#DBC361",
+            "#2B797D",
+            "#B8AF6A",
+            "#FED85C",
+            "#79D0CC",
+            "#FFEB8E",
+            "#B8F5ED"
+          ],
+          "label": "Categorical",
+          "id": "87654122-8144-4720-8259-82ac9908d5f4"
+        },
+        {
+          "colors": [
+            "#25435A",
+            "#2B797D",
+            "#61A9A5",
+            "#79D0CC",
+            "#9DEDE7",
+            "#B8F5ED",
+            "#D5DB61",
+            "#FFEB8E",
+            "#FED85C",
+            "#FECA36",
+            "#DBC361",
+            "#B8AF6A"
+          ],
+          "label": "Ordered",
+          "id": "6b363a0e-c6fa-4887-8952-5456fdfdf919"
+        }
+      ],
+      "label": "Casual",
+      "id": "6c27c30e-5523-4080-82ae-272146e699d0"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FDA08A"
+            },
+            {
+              "offset": 50,
+              "color": "#FBFCF5"
+            },
+            {
+              "offset": 100,
+              "color": "#683AAE"
+            }
+          ],
+          "label": "Diverging",
+          "id": "dc65924d-47ce-45e6-a469-9977cbc6bd0e"
+        },
+        {
+          "stops": [
+            {
+              "color": "#FDA08A",
+              "offset": 0
+            },
+            {
+              "color": "#FED8A0",
+              "offset": 25
+            },
+            {
+              "color": "#FBFCF5",
+              "offset": 50
+            },
+            {
+              "color": "#C762AD",
+              "offset": 75
+            },
+            {
+              "color": "#462C9D",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "51c21672-48dc-4ff0-b70e-633687b8a84b"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FBFCF5"
+            },
+            {
+              "offset": 33.333333333333336,
+              "color": "#FED8A0"
+            },
+            {
+              "offset": 66.66666666666667,
+              "color": "#FDA08A"
+            },
+            {
+              "offset": 100,
+              "color": "#D978A1"
+            }
+          ],
+          "label": "Sequential",
+          "id": "2229f400-11a4-4b0d-b224-abe608161947"
+        },
+        {
+          "id": "a418cd33-fecf-4932-9933-dbd6652c610b",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#FBFCF5",
+              "offset": 0
+            },
+            {
+              "color": "#C762AD",
+              "offset": 50
+            },
+            {
+              "color": "#462C9D",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "04e6ee8f-6a09-4649-891f-5bc66082e506",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#FED8A0",
+              "offset": 0
+            },
+            {
+              "color": "#FDA08A",
+              "offset": 50
+            },
+            {
+              "color": "#D978A1",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "stops": [
+            {
+              "color": "#FED8A0",
+              "offset": 0
+            },
+            {
+              "color": "#EE9093",
+              "offset": 25
+            },
+            {
+              "color": "#C25CB0",
+              "offset": 50
+            },
+            {
+              "color": "#7D40B0",
+              "offset": 75
+            },
+            {
+              "color": "#462C9D",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "b20fe57d-cb13-420f-815b-60e907a43148"
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#462C9D",
+            "#FED8A0",
+            "#C762AD",
+            "#8643B1",
+            "#FDA08A",
+            "#170658",
+            "#BB55B4",
+            "#EE9093",
+            "#9F4AB4",
+            "#683AAE",
+            "#D978A1",
+            "#FFB690"
+          ],
+          "label": "Categorical",
+          "id": "be92eae7-de25-46ae-8e4f-21cb0b69a1f3"
+        },
+        {
+          "colors": [
+            "#FED8A0",
+            "#FFB690",
+            "#FDA08A",
+            "#EE9093",
+            "#D978A1",
+            "#C762AD",
+            "#BB55B4",
+            "#9F4AB4",
+            "#8643B1",
+            "#683AAE",
+            "#462C9D",
+            "#170658"
+          ],
+          "label": "Categorical",
+          "id": "f582184b-9f56-4e5b-b1ab-e9777faa4df9"
+        }
+      ],
+      "label": "Sunset",
+      "id": "5f313589-67ce-44ba-b084-ec5107a7bb7e"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#3FB0D5"
+            },
+            {
+              "offset": 50,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#73D16D"
+            }
+          ],
+          "label": "Diverging",
+          "id": "33649276-c3c6-4405-bf32-14f5c8c1388e"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FEE663"
+            },
+            {
+              "offset": 50,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#3FB0D5"
+            }
+          ],
+          "label": "Diverging",
+          "id": "53b5129e-a17a-41d6-97b9-5e6d89080b45"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#436FB8",
+              "offset": 50
+            },
+            {
+              "color": "#170658",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential Alt",
+          "id": "12809dc5-ac61-4801-8878-10c61fb43c60"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 25,
+              "color": "#FFE664"
+            },
+            {
+              "offset": 50,
+              "color": "#A1D86A"
+            },
+            {
+              "offset": 75,
+              "color": "#65C78F"
+            },
+            {
+              "offset": 100,
+              "color": "#53a673"
+            }
+          ],
+          "label": "Sequential",
+          "id": "8509a00c-3f06-4a32-a9c0-d1edc5cc3b6d"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFE663"
+            },
+            {
+              "offset": 25,
+              "color": "#A2D869"
+            },
+            {
+              "offset": 50,
+              "color": "#50BBB3"
+            },
+            {
+              "offset": 75,
+              "color": "#436EB9"
+            },
+            {
+              "offset": 100,
+              "color": "#462C9D"
+            }
+          ],
+          "label": "Sequential",
+          "id": "313d7e4a-1e68-4f9c-9a5d-3135d8ffaa47"
+        },
+        {
+          "id": "bfafa3ba-b38e-4656-8fe1-9e796981d7f0",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#462C9D",
+              "offset": 0
+            },
+            {
+              "color": "#436EB9",
+              "offset": 25
+            },
+            {
+              "color": "#50BBB3",
+              "offset": 50
+            },
+            {
+              "color": "#A2D869",
+              "offset": 75
+            },
+            {
+              "color": "#FFE663",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#462C9D",
+            "#3BA2A0",
+            "#2865BE",
+            "#93CF6C",
+            "#170658",
+            "#359299",
+            "#177BC5",
+            "#5DC370",
+            "#CADB68",
+            "#FFE663",
+            "#4CB388",
+            "#373EA5"
+          ],
+          "label": "Categorical",
+          "id": "55dee055-18cf-4472-9669-469322a6f264"
+        },
+        {
+          "id": "3090efc0-32d5-441e-85ca-793523ccc782",
+          "label": "Ordered",
+          "colors": [
+            "#462C9D",
+            "#373EA5",
+            "#2865BE",
+            "#177BC5",
+            "#359299",
+            "#3BA2A0",
+            "#4CB388",
+            "#5DC370",
+            "#93CF6C",
+            "#CADB68",
+            "#FFE663",
+            "#170658"
+          ]
+        }
+      ],
+      "label": "Ashland",
+      "id": "5b121cce-cf79-457c-a52a-9162dc174766"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#AEC8C1",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#1864B4",
+              "offset": 100
+            }
+          ],
+          "label": "Diverging",
+          "id": "ab3e6420-3e2f-42a2-802b-e4e9036b089f"
+        },
+        {
+          "id": "cf9f8b2c-caef-4fb5-83f6-79c5abfce653",
+          "label": "Diverging",
+          "stops": [
+            {
+              "color": "#E9F3D1",
+              "offset": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "offset": 50
+            },
+            {
+              "color": "#1864B4",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#FBFCF5",
+              "offset": 0
+            },
+            {
+              "color": "#E9F3D1",
+              "offset": 33.333333333333336
+            },
+            {
+              "color": "#B4DED2",
+              "offset": 66.66666666666667
+            },
+            {
+              "color": "#2693D1",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "46a4b248-19f7-4e71-9cf0-59fcc2c3039e"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF"
+            },
+            {
+              "offset": 100,
+              "color": "#1864B4"
+            }
+          ],
+          "label": "Sequential",
+          "id": "23bcaaee-f734-48ce-b46e-d42726205e7b"
+        },
+        {
+          "id": "80d0e28a-6146-432d-a064-7bfb639e22f0",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#2693D1",
+              "offset": 0
+            },
+            {
+              "color": "#B4DED2",
+              "offset": 50
+            },
+            {
+              "color": "#E9F3D1",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "0d8b7109-1465-45c9-a6a2-82a0a164786a",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#AEC8C1",
+              "offset": 0
+            },
+            {
+              "color": "#1864B4",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#173589",
+            "#3EB0D5",
+            "#1E0030",
+            "#B4DED2",
+            "#1864B4",
+            "#E9F3D1",
+            "#2693D1",
+            "#12165C",
+            "#72C5D4",
+            "#184EA0",
+            "#D2EAD1",
+            "#1A81CE"
+          ],
+          "label": "Categorical",
+          "id": "dd87bc4e-d86f-47b1-b0fd-44110dc0b469"
+        },
+        {
+          "colors": [
+            "#1E0030",
+            "#12165C",
+            "#173589",
+            "#184EA0",
+            "#1864B4",
+            "#1A81CE",
+            "#2693D1",
+            "#3EB0D5",
+            "#72C5D4",
+            "#B4DED2",
+            "#D2EAD1",
+            "#E9F3D1"
+          ],
+          "label": "Ordered",
+          "id": "44596d66-8a4e-463a-84d4-cd5a05aaf752"
+        }
+      ],
+      "label": "Oasis",
+      "id": "1bc1f1d8-7461-4bfd-8c3b-424b924287b5"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#AA0A3C"
+            },
+            {
+              "offset": 50,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#126E82"
+            }
+          ],
+          "label": "Diverging",
+          "id": "4dadd4d2-40af-451b-bcdd-1dfaedf76163"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#215AC8"
+            },
+            {
+              "offset": 50,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#126E82"
+            }
+          ],
+          "label": "Diverging",
+          "id": "be8327bf-9384-449e-8412-84949763505b"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "color": "#ffffff",
+              "offset": 0
+            },
+            {
+              "color": "#215AC8",
+              "offset": 100
+            }
+          ],
+          "label": "Sequential",
+          "id": "628a997f-dd44-4060-a913-250041880199"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#AA0A3C"
+            }
+          ],
+          "label": "Sequential",
+          "id": "31046485-0ab5-406e-b80e-e780acab5160"
+        },
+        {
+          "id": "5196a570-95f8-4337-859e-97bf8af31443",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#FA7850",
+              "offset": 0
+            },
+            {
+              "color": "#AA0A3C",
+              "offset": 50
+            },
+            {
+              "color": "#215AC8",
+              "offset": 100
+            }
+          ]
+        },
+        {
+          "id": "6c08307a-1a28-4f24-95a0-29f67b33495a",
+          "label": "Sequential",
+          "stops": [
+            {
+              "color": "#DCCAA6",
+              "offset": 0
+            },
+            {
+              "color": "#AA0A3C",
+              "offset": 100
+            }
+          ]
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#215AC8",
+            "#FA7850",
+            "#8214A0",
+            "#2CA0FA",
+            "#0BB45B",
+            "#DCCAA6",
+            "#26D2DC",
+            "#126E82",
+            "#9FFA82",
+            "#AA0A3C",
+            "#F0F031",
+            "#FA78F9"
+          ],
+          "label": "Categorical",
+          "id": "b0768e0d-03b8-4c12-9e30-9ada6affc357"
+        },
+        {
+          "id": "a0f97728-49ea-4123-b57e-ec4c57803f8b",
+          "label": "Categorical",
+          "colors": [
+            "#FA7850",
+            "#AA0A3C",
+            "#8214A0",
+            "#215AC8",
+            "#126E82",
+            "#0BB45B",
+            "#9FFA82",
+            "#26D2DC",
+            "#2CA0FA",
+            "#DCCAA6",
+            "#F0F031",
+            "#FA78F9"
+          ]
+        }
+      ],
+      "label": "Dalton",
+      "id": "d754397b-2c05-4470-bbbb-05eb4c2b15cd"
+    },
+    {
+      "divergingPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F36254"
+            },
+            {
+              "offset": 50,
+              "color": "#FCF758"
+            },
+            {
+              "offset": 100,
+              "color": "#4FBC89"
+            }
+          ],
+          "label": "Red to Yellow to Green",
+          "id": "legacy_diverging1"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F36254"
+            },
+            {
+              "offset": 50,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#4FBC89"
+            }
+          ],
+          "label": "Red to White to Green",
+          "id": "legacy_diverging2"
+        }
+      ],
+      "sequentialPalettes": [
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ff0000"
+            },
+            {
+              "offset": 100,
+              "color": "#0000ff"
+            }
+          ],
+          "label": "Red to Blue",
+          "id": "legacy_sequential3"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F36254"
+            },
+            {
+              "offset": 100,
+              "color": "#ffffff"
+            }
+          ],
+          "label": "Red to White",
+          "id": "legacy_sequential1"
+        },
+        {
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff"
+            },
+            {
+              "offset": 100,
+              "color": "#4FBC89"
+            }
+          ],
+          "label": "White to Green",
+          "id": "legacy_sequential2"
+        }
+      ],
+      "categoricalPalettes": [
+        {
+          "colors": [
+            "#62bad4",
+            "#a9c574",
+            "#929292",
+            "#9fdee0",
+            "#1f3e5a",
+            "#90c8ae",
+            "#92818d",
+            "#c5c6a6",
+            "#82c2ca",
+            "#cee0a0",
+            "#928fb4",
+            "#9fc190"
+          ],
+          "type": "discrete",
+          "label": "Looker Classic",
+          "id": "looker_classic"
+        },
+        {
+          "colors": [
+            "#5245ed",
+            "#ed6168",
+            "#1ea8df",
+            "#353b49",
+            "#49cec1",
+            "#b3a0dd",
+            "#db7f2a",
+            "#706080",
+            "#a2dcf3",
+            "#776fdf",
+            "#e9b404",
+            "#635189"
+          ],
+          "type": "discrete",
+          "label": "Santa Cruz",
+          "id": "santa_cruz"
+        },
+        {
+          "colors": [
+            "#a6cee3",
+            "#1f78b4",
+            "#b2df8a",
+            "#33a02c",
+            "#fb9a99",
+            "#e31a1c",
+            "#fdbf6f",
+            "#ff7f00",
+            "#cab2d6",
+            "#6a3d9a",
+            "#edbc0e",
+            "#b15928"
+          ],
+          "type": "discrete",
+          "label": "Mixed Dark",
+          "id": "mixed_dark"
+        },
+        {
+          "colors": [
+            "#8dd3c7",
+            "#ffed6f",
+            "#bebada",
+            "#fb8072",
+            "#80b1d3",
+            "#fdb462",
+            "#b3de69",
+            "#fccde5",
+            "#d9d9d9",
+            "#bc80bd",
+            "#ccebc5",
+            "#a3a3ff"
+          ],
+          "type": "discrete",
+          "label": "Mixed Pastels",
+          "id": "mixed_pastels"
+        },
+        {
+          "colors": [
+            "#294987",
+            "#5a1038",
+            "#ff947c",
+            "#1f6b62",
+            "#764173",
+            "#910303",
+            "#b2947c",
+            "#192d54",
+            "#a31e67",
+            "#a16154",
+            "#0f544b",
+            "#ffd9ba"
+          ],
+          "type": "discrete",
+          "label": "Mixed Neutrals",
+          "id": "mixed_neutrals"
+        },
+        {
+          "colors": [
+            "#265780",
+            "#D98541",
+            "#C53DCC",
+            "#33992E",
+            "#36B38D",
+            "#A2BF39",
+            "#5A3DCC",
+            "#8a0f3d",
+            "#ff7aa3",
+            "#2d89bd",
+            "#8f09b0",
+            "#d94141"
+          ],
+          "type": "discrete",
+          "label": "Random",
+          "id": "random"
+        },
+        {
+          "colors": [
+            "#F16358",
+            "#E0635E",
+            "#D06464",
+            "#BF656B",
+            "#AF6671",
+            "#9F6777",
+            "#8E687E",
+            "#7E6984",
+            "#6E6A8A",
+            "#5D6B91",
+            "#4D6C97",
+            "#3D6D9E"
+          ],
+          "type": "discrete",
+          "label": "Tomato to Steel Blue",
+          "id": "tomato_to_steel_blue"
+        },
+        {
+          "colors": [
+            "#7FCDAE",
+            "#7ED09C",
+            "#7DD389",
+            "#85D67C",
+            "#9AD97B",
+            "#B1DB7A",
+            "#CADF79",
+            "#E2DF78",
+            "#E5C877",
+            "#E7AF75",
+            "#EB9474",
+            "#EE7772"
+          ],
+          "type": "discrete",
+          "label": "Green to Red",
+          "id": "green_to_red"
+        },
+        {
+          "colors": [
+            "#8d4074",
+            "#a15e8a",
+            "#b57ba0",
+            "#c899b7",
+            "#dcb7cf",
+            "#efd7e7",
+            "#e0e9cc",
+            "#bcd0a6",
+            "#97b780",
+            "#749e5b",
+            "#508637",
+            "#286f0f"
+          ],
+          "type": "discrete",
+          "label": "Fuchsia to Green",
+          "id": "fuchsia_to_green"
+        },
+        {
+          "colors": [
+            "#000000",
+            "#191919",
+            "#292929",
+            "#3c3c3c",
+            "#4e4e4e",
+            "#626262",
+            "#777777",
+            "#8d8d8d",
+            "#a3a3a3",
+            "#b9b9b9",
+            "#d0d0d0",
+            "#e7e7e7"
+          ],
+          "type": "discrete",
+          "label": "Black to Gray",
+          "id": "black_to_gray"
+        }
+      ],
+      "label": "Legacy",
+      "id": "legacy"
+    }
+  ]
+}

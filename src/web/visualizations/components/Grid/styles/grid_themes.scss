@@ -1,0 +1,376 @@
+// The ag grid icons path should be re-adjusted when importing the scss file.
+// This is a common problem, described in the Sass(scss) loader project.
+// The theme exposes the $ag-icons-path variable to address that.
+// https://github.com/ag-grid/ag-grid/issues/1950
+
+$ag-bal-icons-path: '~ag-grid-community/src/styles/ag-theme-balham/icons/';
+$ag-icons-path: '~ag-grid-community/src/styles/ag-theme-base/icons/';
+
+// These styles determine floating position, etc. Do not modify
+@import '~ag-grid-community/src/styles/ag-grid.scss';
+// Shared Grid styles
+.ag-grid-vis {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  @media print {
+    .ag-body-viewport {
+      display: inherit;
+    }
+  }
+
+  // Slows down copy animation
+  .ag-cell-highlight,
+  .ag-cell-highlight-animation {
+    transition: 0.5s;
+  }
+
+  .row-number-header {
+    // Hides row number gear
+    .fa-gear,
+    .sort-icon {
+      visibility: hidden;
+    }
+  }
+
+  // Ensure conditional formatting goes full width
+  .ag-row {
+    .ag-cell {
+      padding-left: 0px;
+      padding-right: 0px;
+      // Conditional formatting inheritance
+      &.looker-cell,
+      .looker-cell {
+        .bar-display:after {
+          content: ".";
+          visibility: hidden;
+        }
+        display: inline-block;
+        padding: 0 8px;
+        height: 100%;
+        width: 100%;
+        a {
+          color: inherit;
+        }
+
+        .bar-vis {
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          align-items: center;
+          padding: 2px 0;
+          div {
+            display: flex;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .ag-cell .looker-renderer {
+      align-self: baseline;
+    }
+
+    // per ag-grid API, cell styles are added to ag-cell but text-decoration is a
+    // non-inherit property so adding the chain here for it to cascade down
+    .ag-cell .looker-renderer, .looker-cell, .drillable-item, .drillable-item-content {
+      text-decoration: inherit;
+      width: 100%; // allows html style to span width of cell DX-2255
+    }
+  }
+
+  .ag-cell:not(.row-number) {
+    .ag-pinned-bottom-totals {
+      .ag-totals {
+        padding-left: 8px;
+        font-weight: bold;
+      }
+      a {
+        color: inherit;
+      }
+    }
+  }
+
+  .drillable-link,
+  a {
+    text-decoration: none;
+    .drillable-link:hover,
+    a:hover {
+      text-decoration: underline dotted;
+    }
+  }
+
+  .drillable-item a:hover {
+    text-decoration: underline dotted;
+  }
+
+  .ag-pinned-left-cols-container {
+    .ag-row {
+      .ag-cell.row-number {
+        text-align: right;
+        width: 100%;
+      }
+    }
+  }
+  .ag-header-cell {
+    .custom-header-menu-button {
+      visibility: hidden;
+    }
+    &:hover {
+      .custom-header-menu-button {
+        visibility: visible;
+      }
+    }
+    .ag-react-container {
+      height: 100%;
+    }
+  }
+  .sort {
+    padding-left: 1px;
+    // Hide the icon so we don't get jitters while sorting
+    &.lk-icon-minus.unsorted {
+      display: none;
+    }
+  }
+  .ag-header-group-cell-no-group {
+    .pivot-header {
+      height: unset;
+    }
+  }
+  .pivot-expanded {
+    word-break: break-all;
+  }
+  .header,
+  .pivot-header,
+  .ag-header-cell-label {
+    .header-sort-label {
+      text-overflow: ellipsis;
+      display: flex;
+      flex: 1 1 auto;
+      overflow: hidden;
+      padding-right: 5px;
+      &.ag-center-align {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      &.ag-right-align {
+        align-items: flex-end;
+        flex-direction: column;
+        text-align: right;
+      }
+    }
+    .sort-wrapperunsortable {
+      .ag-header-cell-label {
+        &.ag-center-align {
+          align-items: center;
+          flex-direction: column;
+        }
+        &.ag-right-align {
+          align-items: flex-end;
+          flex-direction: column;
+        }
+      }
+    }
+    .header-menu {
+      display: flex;
+      flex: 0 0 10px;
+    }
+    .sort-wrapper {
+      display: inline-flex;
+      flex: 1;
+      overflow: hidden;
+    }
+    .field-label {
+      width: 100%;
+      flex: 0 1 auto;
+      padding-left: 8px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+
+      &.ag-header-cell-label {
+        &.center-align {
+          align-items: center;
+          flex-direction: column;
+        }
+        &.right-align {
+          align-items: flex-end;
+          flex-direction: column;
+        }
+      }
+    }
+    span:not(.sort-icon) {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+
+  .cell-clickable-content {
+    cursor: pointer;
+  }
+
+  // drill-menu-bauble css class is shared with table-legacy
+  // see drill_menu.scss for the base properties that are "inherited"
+  .drill-menu-bauble {
+    position: inherit;
+    span {
+      top: -9px;
+    }
+  }
+
+  .ag-cell:not(.subtotal-cell) {
+    span {
+      width: 100%; // allows html style to span width of cell DX-2255
+    }
+  }
+
+  .ag-cell {
+    span {
+      // Tread carefully, styles set here will apply all spans in a cell
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      &.ag-row-group-indent-0,
+      &.ag-group-child-count {
+        display: inline-flex;
+      }
+      .drillable-item-content {
+        max-height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .row-expanded {
+    span {
+      a,
+      strong,
+      .drillable-item-content,
+      span {
+        white-space: normal;
+        overflow-wrap: break-word;
+      }
+    }
+  }
+}
+
+.ag-grid-vis .ag-row .ag-cell.subtotal-cell {
+  display: inline-flex;
+  padding-left: 10px;
+
+  // Remove the checkbox margin that ag-grid enforces even if there is no checkbox.
+  .ag-group-checkbox.ag-invisible {
+    display: none;
+  }
+
+  .ag-group-expanded, .ag-group-contracted {
+    min-width: 12px;
+  }
+
+  .ag-group-child-count {
+    min-width: 20px;
+  }
+}
+
+// TODO: When drill_menu.scss is no longer used, migrate the .drill-menu-bauble css definitions here.
+.ag-grid-vis .ag-cell .drillable-item {
+  display: block;
+
+  .drillable-item-icon-wrapper {
+    align-items: center;
+    display: inline-flex;
+  }
+
+  .drill-menu-bauble:hover {
+    text-decoration: none;
+  }
+}
+
+.ag-root {
+  .measure,
+  .table-measure {
+    text-align: right;
+    .drillable-item,
+    .sort-wrapperunsortable {
+      width: 100%;
+    }
+    .drillable-item-content {
+      width: 100%;
+    }
+  }
+  .ag-header-cell {
+    padding-left: 0px !important;
+
+    text-align: left;
+  }
+}
+
+.ag-popup-editor {
+  textarea {
+    min-width: 140px;
+    min-height: 25px;
+    border: none;
+    white-space: normal;
+  }
+}
+
+.ag-pinned-left-floating-bottom {
+  font-weight: bold;
+}
+
+.ag-header-group-cell {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  .ag-react-container {
+    display: flex;
+    height: 100%;
+    div {
+      border-bottom: 1px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      height: 100%;
+      width: 100%;
+      .pivot-header {
+        padding-left: 8px;
+        padding-right: 8px;
+        &.ag-right-align {
+          text-align: right;
+        }
+        &.ag-center-align {
+          text-align: center;
+        }
+        .field-label {
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+.ag-theme-classic {
+  @import './ag_theme_classic/ag_theme_classic.scss';
+  @include ag-theme-classic($params);
+}
+
+.ag-theme-white {
+  @import './ag_theme_white/ag_theme_white.scss';
+  @include ag-theme-white($params);
+}
+
+.ag-theme-gray {
+  @import './ag_theme_gray/ag_theme_gray.scss';
+  @include ag-theme-gray($params);
+}
+.ag-theme-transparent {
+  @import './ag_theme_transparent/ag_theme_transparent.scss';
+  @include ag-theme-transparent($params);
+}
+
+.ag-theme-unstyled {
+  @import './ag_theme_unstyled/ag_theme_unstyled.scss';
+  @include ag-theme-unstyled($params);
+}

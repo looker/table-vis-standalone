@@ -1,0 +1,14 @@
+- number_format
+- AppState -- color collection stuff
+- I18n.t
+- Lexp
+- web/color
+- web/utils
+- a few scss files
+- window.location in embed_utils
+- Number localization
+- conditional formatting
+- lots of utils
+- lots of types
+
+- Required packages: assets/core_api, d3-array, d3-scale, d3-scale-chromatic, DOMPurify, jquery
