@@ -23,7 +23,7 @@ import { convertValueFormat } from './grid_utils'
 import { getFieldLabel } from './header_utils'
 
 // TODO change to an import after Lexp is loaded properly
-require('script-loader!assets/javascripts/async/lexp-lang')
+// require('script-loader!assets/javascripts/async/lexp-lang') //TODO
 
 /**
  * Consumes a result set and produces individual rows for the grid to consume.

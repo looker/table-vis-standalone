@@ -18,7 +18,7 @@ import {
 import { getFieldFromColDef } from './grid_utils'
 
 // TODO change to an import after Lexp is loaded properly
-require('script-loader!assets/javascripts/async/lexp-lang')
+// require('script-loader!assets/javascripts/async/lexp-lang') // TODO
 
 const getValueFormat = (allFields: Field[], config: VisConfig) => {
   const valueFormat = { ...config.series_value_format }
