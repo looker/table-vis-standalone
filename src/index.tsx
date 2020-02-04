@@ -3,7 +3,6 @@ import 'web/visualizations/components/Grid/styles/lk-icons.scss'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Grid from 'web/visualizations/components/Grid';
 import { context } from './example_data';

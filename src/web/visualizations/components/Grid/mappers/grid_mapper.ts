@@ -27,7 +27,7 @@ import {
   LINE_HEIGHT_MULTIPLIER,
 } from 'web/visualizations/components/Grid/utils/grid_constants'
 import {
-  AllProcessedFields,
+  // AllProcessedFields,
   Cell,
   Field,
   QueryResponse,
