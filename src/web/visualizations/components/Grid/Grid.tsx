@@ -27,7 +27,7 @@ const GRID_LICENSE_KEY = 'Looker_Looker_4Devs_3000Deployment_24_April_2020__MTU4
 
 USSEnterprise.setLicenseKey(GRID_LICENSE_KEY)
 
-interface GridProps {
+export interface GridProps {
   options: GridContext
   trackRenderPerformance?: () => void
   firstDataRendered?: () => void
